@@ -11,13 +11,13 @@
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    color: white;
     background: linear-gradient(135deg,#4203a9,#90bafc);
+    color: white;
 }
 .calculator{
     width: 100%;
     max-width: 600px;
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left: 10%;
 }
 .calculator h1{
@@ -65,4 +65,36 @@
     background-position: calc(100% - 10px);
     background-size: 30px;
     cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 718px){
+    .calculator {
+        max-width: 100%;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .calculator h1 {
+        font-size: 49px;
+        text-align: center;
+    }
+    .input-box {
+        padding: 8px;
+        column-gap: 6px;
+    }
+    .input-box button {
+        padding: 15px 4px;
+    }
+
+.input-box input {
+
+  padding: 11px 3px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
 }
